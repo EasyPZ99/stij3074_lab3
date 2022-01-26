@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 25, 2022 at 04:16 PM
+-- Generation Time: Jan 26, 2022 at 11:08 AM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 8.0.3
 
@@ -78,7 +78,13 @@ INSERT INTO `tbl_product` (`item_id`, `item_title`, `item_author`, `item_isbn`, 
 (30, 'Scrub Muka', '', '12', 25, 'Scrub muka Afira, untuk kegunaan luaran sahaja.', '', '', '2022-01-25 22:41:13.022444'),
 (31, 'Tungku Herba 7 Aura', '', '31', 70, 'Tungku digunakan untuk mengurangkan rasa kesakitan tulang.', '', '', '2022-01-25 22:43:46.557688'),
 (32, 'Minyak Afira Large', '', '23', 30, 'Minyak Afira Large, diperkaya dengan rempah ratus kini dengan saiz lebih besar.', '', '', '2022-01-25 22:45:17.541113'),
-(33, 'Minyak Afira', '', '43', 10, 'Minyak Herba Afira, kaya dengan rempah ratus untuk kegunaan harian.', '', '', '2022-01-25 22:54:35.300360');
+(33, 'Minyak Afira', '', '43', 10, 'Minyak Herba Afira, kaya dengan rempah ratus untuk kegunaan harian.', '', '', '2022-01-25 22:54:35.300360'),
+(34, 'Eesha', '', '44', 20, 'Losyen Herba Eesha digunakan untuk luaran', '', '', '2022-01-26 17:54:40.967466'),
+(35, 'Garam Seri Annur (Bundle) x2', '', '20', 18, 'Garam Herba Seri Annur x2, jimat lebih murah.', '', '', '2022-01-26 17:56:37.015046'),
+(37, 'Gelang Batu SCWAROVSKI', '', '50', 130, 'Gelang buatan sendiri, berbagai pilihan.', '', '', '2022-01-26 18:02:05.389743'),
+(38, 'Gelang Batu SCWAROVSKI', '', '51', 130, 'Batu Schwarovski buatan sendiri.', '', '', '2022-01-26 18:03:09.031131'),
+(39, 'Aura Herba Afira (Package)', '', '33', 40, 'Aura Herba Afira termasuk package Garam Seri Annur', '', '', '2022-01-26 18:04:23.239105'),
+(40, 'Minyak Herba Afira x2', '', '11', 50, 'Minyak Herba Afira package x2 jimat RM10', '', '', '2022-01-26 18:05:41.291921');
 
 -- --------------------------------------------------------
 
@@ -139,7 +145,7 @@ ALTER TABLE `tbl_carts`
 -- AUTO_INCREMENT for table `tbl_product`
 --
 ALTER TABLE `tbl_product`
-  MODIFY `item_id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
+  MODIFY `item_id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
 
 --
 -- AUTO_INCREMENT for table `tbl_users`
